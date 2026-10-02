@@ -73,6 +73,7 @@ void loop() {
       digitalWrite(PIN_X, HIGH);
       digitalWrite(PIN_Y, LOW);
       delay(1);
+
       digitalWrite(PIN_X, LOW);
       digitalWrite(PIN_Y, HIGH);
       delay(1);
@@ -103,6 +104,206 @@ void loop() {
 
       digitalWrite(PIN_Y, HIGH);
       digitalWrite(PIN_Z, LOW);
+      delay(1);
+      break;
+
+    case ('6'):
+      pinMode(PIN_X, OUTPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, INPUT);
+
+      digitalWrite(PIN_X, LOW);
+      digitalWrite(PIN_Y, HIGH);
+      delay(1);
+
+      pinMode(PIN_X, INPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, OUTPUT);
+
+      digitalWrite(PIN_Y, HIGH);
+      digitalWrite(PIN_Z, LOW);
+      delay(1);
+      break;
+
+    case ('7'):
+      pinMode(PIN_X, OUTPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, INPUT);
+
+      digitalWrite(PIN_X, HIGH);
+      digitalWrite(PIN_Y, LOW);
+      delay(1);
+
+      pinMode(PIN_X, OUTPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, INPUT);
+
+      digitalWrite(PIN_X, LOW);
+      digitalWrite(PIN_Y, HIGH);
+      delay(1);
+
+      pinMode(PIN_X, INPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, OUTPUT);
+
+      digitalWrite(PIN_Y, HIGH);
+      digitalWrite(PIN_Z, LOW);
+      delay(1);
+      break;
+
+    case ('8'):
+      pinMode(PIN_X, INPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, OUTPUT);
+
+      digitalWrite(PIN_Y, LOW);
+      digitalWrite(PIN_Z, HIGH);
+      delay(1);
+      break;
+
+    case ('9'):
+      pinMode(PIN_X, OUTPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, INPUT);
+
+      digitalWrite(PIN_X, HIGH);
+      digitalWrite(PIN_Y, LOW);
+      delay(1);
+
+      pinMode(PIN_X, INPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, OUTPUT);
+
+      digitalWrite(PIN_Y, LOW);
+      digitalWrite(PIN_Z, HIGH);
+      delay(1);
+      break;
+
+    case ('A'):
+      pinMode(PIN_X, OUTPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, INPUT);
+
+      digitalWrite(PIN_X, LOW);
+      digitalWrite(PIN_Y, HIGH);
+      delay(1);
+
+      pinMode(PIN_X, INPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, OUTPUT);
+
+      digitalWrite(PIN_Y, LOW);
+      digitalWrite(PIN_Z, HIGH);
+      delay(1);
+      break;
+
+    case ('B'):
+      pinMode(PIN_X, OUTPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, INPUT);
+
+      digitalWrite(PIN_X, HIGH);
+      digitalWrite(PIN_Y, LOW);
+      delay(1);
+
+      pinMode(PIN_X, OUTPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, INPUT);
+
+      digitalWrite(PIN_X, LOW);
+      digitalWrite(PIN_Y, HIGH);
+      delay(1);
+
+      pinMode(PIN_X, INPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, OUTPUT);
+
+      digitalWrite(PIN_Y, LOW);
+      digitalWrite(PIN_Z, HIGH);
+      delay(1);
+      break;
+
+    case ('C'):
+      pinMode(PIN_X, INPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, OUTPUT);
+
+      digitalWrite(PIN_Y, HIGH);
+      digitalWrite(PIN_Z, LOW);
+      delay(1);
+
+      digitalWrite(PIN_Y, LOW);
+      digitalWrite(PIN_Z, HIGH);
+      delay(1);
+      break;
+
+    case ('D'):
+      pinMode(PIN_X, OUTPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, INPUT);
+
+      digitalWrite(PIN_X, HIGH);
+      digitalWrite(PIN_Y, LOW);
+      delay(1);
+
+      pinMode(PIN_X, INPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, OUTPUT);
+
+      digitalWrite(PIN_Y, HIGH);
+      digitalWrite(PIN_Z, LOW);
+      delay(1);
+
+      digitalWrite(PIN_Y, LOW);
+      digitalWrite(PIN_Z, HIGH);
+      delay(1);
+      break;
+
+    case ('*'):
+      pinMode(PIN_X, OUTPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, INPUT);
+
+      digitalWrite(PIN_X, LOW);
+      digitalWrite(PIN_Y, HIGH);
+      delay(1);
+
+      pinMode(PIN_X, INPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, OUTPUT);
+
+      digitalWrite(PIN_Y, HIGH);
+      digitalWrite(PIN_Z, LOW);
+      delay(1);
+
+      digitalWrite(PIN_Y, LOW);
+      digitalWrite(PIN_Z, HIGH);
+      delay(1);
+      break;
+
+    case ('#'):
+      pinMode(PIN_X, OUTPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, INPUT);
+
+      digitalWrite(PIN_X, HIGH);
+      digitalWrite(PIN_Y, LOW);
+      delay(1);
+
+      digitalWrite(PIN_X, LOW);
+      digitalWrite(PIN_Y, HIGH);
+      delay(1);
+
+      pinMode(PIN_X, INPUT);
+      pinMode(PIN_Y, OUTPUT);
+      pinMode(PIN_Z, OUTPUT);
+
+      digitalWrite(PIN_Y, HIGH);
+      digitalWrite(PIN_Z, LOW);
+      delay(1);
+
+      digitalWrite(PIN_Y, LOW);
+      digitalWrite(PIN_Z, HIGH);
       delay(1);
       break;
   }
